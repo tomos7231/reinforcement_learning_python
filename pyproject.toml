@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "reinforcement_learning_python"
+version = "0.1.0"
+description = ""
+authors = ["tomos7231 <tomobake0023@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+tqdm = "^4.65.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.23.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
